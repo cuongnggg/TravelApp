@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Color and styling */
@@ -17,6 +19,10 @@
     --inputColor: rgb(239, 239, 239);
     --bodyColor: rgb(240, 240, 246);
     --cardBG: rgb(225,225,235);
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 a{
@@ -80,4 +86,22 @@ input{
 
 body{
     background: var(--bodyColor);
+}
+
+/*Media Queries*/
+@media screen and (min-width: 1240px) {
+    .container{
+        width: 80% !important; 
+        margin: auto !important;
+    }
+
+    .section{
+        padding: 6rem 0 4rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    body{
+        zoom: 1.7;
+    }
 }
