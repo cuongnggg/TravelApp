@@ -147,9 +147,11 @@
                         }
                     }
                 }
-                .btn{
+
+                .btn {
                     margin-left: 1rem;
-                    a{
+
+                    a {
                         color: var(--whiteColor);
                         font-weight: 500;
                     }
@@ -160,19 +162,19 @@
 }
 
 @media screen and (min-width: 960px) {
-    .header{
-        .navBar{
-            .navLists{
-                .navItem{
+    .header {
+        .navBar {
+            .navLists {
+                .navItem {
                     padding: 0 0.7rem;
                 }
             }
         }
-    }    
+    }
 }
 
 @media screen and (min-width: 1240px) {
-    .header{
+    .header {
         padding: 1rem 8.5rem;
     }
 }

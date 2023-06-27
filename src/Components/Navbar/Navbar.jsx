@@ -54,6 +54,7 @@ const Navbar = () => {
               <a href={() => false}>BOOK NOW</a>
             </button>
           </ul>
+          
           <div onClick={removeNavbar} className="closeNavbar">
             <AiFillCloseCircle className="icon"/>
           </div>
