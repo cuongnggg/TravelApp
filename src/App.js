@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer'
 const App = () => {
   return (
     <>
+    {/*Call component*/}
       <Navbar />
       <Home />
       <Main />

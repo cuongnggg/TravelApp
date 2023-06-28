@@ -21,12 +21,15 @@ const Home = () => {
   return (
     <section className="home">
       <div className="overlay"></div>
+      {/* Adding a video tag in home */}
       <video src={video} muted autoPlay loop type="video/mp4"></video>
       <div className="homeContent container">
         <div className="textDiv">
+          {/* data-aos: animation fade-up */}
           <span data-aos="fade-up" className="smallText">
             Our Packages
           </span>
+          {/* data-aos: animation fade-up */}
           <h1 data-aos="fade-up" className="homeTitle">
             Search your Holidays
           </h1>

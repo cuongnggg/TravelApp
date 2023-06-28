@@ -25,7 +25,7 @@ const Navbar = () => {
             <h1><MdOutlineTravelExplore className="icon"/>Travel</h1>
           </a>
         </div>
-
+        {/* Using useState: active */}
         <div className={active}>
           <ul className="navLists flex">
             <li className="navItem">

@@ -13,6 +13,7 @@ import img9 from '../../assets/img9.jpg'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+//Static data
 const Data = [
   {
     id: 1,
@@ -114,6 +115,7 @@ const Main = () => {
 
       <div className="secContent grid">
         {
+          //Do loop in Data using Map method
           Data.map(({id, imgSrc, desTitle, location, grade, fees, description}) => {
             return(
               <div key={id} data-aos="fade-up" className="singleDestination">
